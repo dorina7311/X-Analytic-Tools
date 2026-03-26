@@ -190,7 +190,8 @@ def main():
     inject_x_theme() # Load CSS
     st.sidebar.title("𝕏 Analytics")
     st.sidebar.markdown("---")
-    menu = st.sidebar.radio("Menu", ["🏠 Beranda", "📊 Sentimen", "📈 Tren Waktu", "🗂️ Topik Isu", "⭐ Interaksi", "📢 Iklan, Spam, & Bot"])
+    menu = st.sidebar.radio("Menu", ["🏠 Home
+, "📊 Sentimen", "📈 Tren Waktu", "🗂️ Topik Isu", "⭐ Interaksi", "📢 Iklan, Spam, & Bot"])
     
     st.sidebar.markdown("---")
     
